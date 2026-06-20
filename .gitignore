@@ -1,0 +1,19 @@
+# -------------------------------------------------------------------
+# Java / Maven / Gradle (Compiled code and build directories)
+# -------------------------------------------------------------------
+.classpath
+.settings/
+bin/
+.class
+target/
+build/
+.gradle/
+
+
+# -------------------------------------------------------------------
+# Environment Variables & Secrets (NEVER commit these)
+# -------------------------------------------------------------------
+.env
+.env.local
+*.pem
+*.key
